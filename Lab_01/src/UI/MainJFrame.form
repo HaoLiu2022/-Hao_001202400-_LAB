@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-63,0,0,3,69"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="UserFormPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="82" pref="82" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="userFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userNUID" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="fieldFirstName" max="32767" attributes="0"/>
+                                          <Component id="fieldNUID" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="userCollegeName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userPhoneNumber" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userEmailAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userCurrentStreetName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userCurrentAptNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userCurrentCityName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="userCurrentStateName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="fieldCurrentZipCode" min="-2" pref="238" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="fieldLastName" max="32767" attributes="0"/>
+                                              <Component id="fieldCollegeName" max="32767" attributes="0"/>
+                                              <Component id="fieldPhoneNumber" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="fieldEmailAddress" max="32767" attributes="0"/>
+                                              <Component id="fieldCurrentStreetName" max="32767" attributes="0"/>
+                                              <Component id="fieldCurrentAptNumber" max="32767" attributes="0"/>
+                                              <Component id="fieldCurrentCityName" max="32767" attributes="0"/>
+                                              <Component id="fieldCurrentStateName" min="-2" pref="238" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="userPermanentZipCode" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="fieldPermanentZipCode" min="-2" pref="238" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="userPermanentStateName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="fieldPermanentStateName" min="-2" pref="238" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="userPermanentAptNumber" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="fieldPermanentAptNumber" min="-2" pref="238" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="userPermanentStreetName" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="fieldPermanentStreetName" min="-2" pref="238" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="userCurrentZipCode" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="userPermanentCityName" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="fieldPermanentCityName" min="-2" pref="238" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                              <Component id="save" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userNUID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldNUID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userCollegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldCollegeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="userEmailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldEmailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldCurrentStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userCurrentStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldCurrentAptNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userCurrentAptNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldCurrentCityName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userCurrentCityName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldCurrentStateName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userCurrentStateName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldCurrentZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userCurrentZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldPermanentStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userPermanentStreetName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldPermanentAptNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userPermanentAptNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldPermanentCityName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userPermanentCityName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldPermanentStateName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userPermanentStateName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fieldPermanentZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="userPermanentZipCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="74" max="32767" attributes="0"/>
+                      <Component id="save" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="userFirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FirstName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCurrentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CurrentStreetName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldFirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCurrentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="34 Munroe St"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCurrentStreetNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="save">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userLastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="LastName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldLastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Liu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userNUID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NUID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldNUID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="001202400"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldNUIDActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCollegeName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CollegeName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCollegeName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="COE"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCollegeNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPhoneNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PhoneNum:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPhoneNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="8573038087"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPhoneNumberActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userEmailAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EmailAddress:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldEmailAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="liu.hao5@northeastern.edu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldEmailAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCurrentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt 801"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCurrentAptNumberActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCurrentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CurrentAptNumber:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCurrentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lynn"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCurrentCityNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCurrentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MA"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCurrentStateNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCurrentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CurrentStateName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCurrentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CurrentCityName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldCurrentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="01901"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldCurrentZipCodeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userCurrentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CurrentZipCode:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPermanentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="No.528 North Guangxi Rd"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPermanentStreetNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPermanentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="200001"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPermanentZipCodeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPermanentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PermanentZipCode:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPermanentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rm 1607"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPermanentAptNumberActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPermanentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PermanentAptNumber:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPermanentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Shanghai"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPermanentCityNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPermanentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PermanentStreetName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fieldPermanentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Shanghai"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPermanentStateNameActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPermanentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PermanentStateName:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="userPermanentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PermanentCityName:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ViewPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="viewPermanentZipCode" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPermanentStateName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPermanentCityName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPermanentAptNumber" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPermanentStreetName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCurrentZipCode" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCurrentStateName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCurrentCityName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCurrentAptNumber" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCurrentStreetName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewEmailAddress" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewPhoneNum" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewCollegeName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewLastName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewFirstName" min="-2" max="-2" attributes="0"/>
+                          <Component id="viewNUID" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="89" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <Component id="viewNUID" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="viewFirstName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="viewLastName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewCollegeName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewPhoneNum" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="viewEmailAddress" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewCurrentStreetName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewCurrentAptNumber" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewCurrentCityName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="viewCurrentStateName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="viewCurrentZipCode" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewPermanentStreetName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="viewPermanentAptNumber" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewPermanentCityName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewPermanentStateName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="viewPermanentZipCode" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="viewNUID">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="001202400"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewFirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewLastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Liu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCollegeName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="COE"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPhoneNum">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="8573898812"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewEmailAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="liu.hao5@northeastern.edu"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCurrentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="34 Munroe St"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCurrentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apt 801"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCurrentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Lynn"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCurrentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="MA"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewCurrentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="01901"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPermanentStreetName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="No.528 North Guangxi RD"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPermanentAptNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rm 1607"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPermanentCityName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Shanghai"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPermanentStateName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Shanghai"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="viewPermanentZipCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="200001"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
