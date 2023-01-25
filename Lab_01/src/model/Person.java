@@ -15,6 +15,8 @@ public class Person {
     private String lastName;
     private String collegeName;
     private Address address;
+    private String phoneNumber;
+    private String emailAddress;
     
 
     public Person() {
@@ -23,6 +25,8 @@ public class Person {
         this.lastName = "";
         this.collegeName = "";
         this.address = new Address();
+        this.phoneNumber = "";
+        this.emailAddress = "";
     }
     
     /**
@@ -95,12 +99,42 @@ public class Person {
         this.collegeName = collegeName;
     }
     
+        /**
+     * @return the phoneNumber
+     */
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    /**
+     * @param phoneNumber the phoneNumber to set
+     */
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    /**
+     * @return the emailAddress
+     */
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    /**
+     * @param emailAddress the emailAddress to set
+     */
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+    
     public static void main(String args[]) {
         Person obj = new Person();
         obj.setNUID("001202400");
         obj.setFirstName("Hao");
         obj.setLastName("Liu");
         obj.setCollegeName("NEU");
+        obj.setPhoneNumber("8573038087");
+        obj.setEmailAddress("liu.hao5@northeastern.edu");
         
         Address addr = obj.getAddress();
         obj.setAddress(addr);
